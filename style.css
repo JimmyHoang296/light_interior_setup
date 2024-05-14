@@ -65,11 +65,15 @@ button:hover{
 
 .room-infor{
     margin-top: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .room-header{
     display:  flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .room-header img{
@@ -123,5 +127,14 @@ button:hover{
     border: 1px solid gray;
     padding: 10px;
     border-radius: 5px;
+}
+
+.fold .room-item{
+    display: none;
+}
+
+.fold .room-header img{
+    transform: rotate(180deg);
+    animation: ease-in-out 1s
 }
 
