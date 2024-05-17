@@ -138,3 +138,6 @@ button:hover{
     animation: ease-in-out 1s
 }
 
+.hidden{
+    display: none;
+}
